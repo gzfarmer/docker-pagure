@@ -7,4 +7,5 @@ docker build -t "pagure-lab:latest" .
 docker run -it -v /home/pagure:/home -p 8800:8800 pagure-lab:latest /bin/bash
 #Service start
 cd /usr/share/pagure/
+
 ./runserver.py
